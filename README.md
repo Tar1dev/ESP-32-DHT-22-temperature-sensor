@@ -30,9 +30,10 @@ A simple implementation of a DHT-22 sensor with an ESP-32
 ### Flashing:
 1) Download and install the [arduino ide](https://www.arduino.cc/en/software).
 2) Open the project.
-3) Go to *File > preferences* and paste "https://dl.espressif.com/dl/package_esp32_index.json" into the "additionnal boards" text input.
-4) Next, you'll need to install *DHT sensor library from Adfruit* in the library manager (3rd icon on the left sidebar).
-5) Go to *Tools > board > esp32* and select *ESP32 Dev Module*.
-6) Go to *Tools > board > port* and select the correct COM port.
-7) Falsh with the top left arrow button !
-8) Open the serial monitor, select 115200 baud, and wait for output.
+3) Connect your ESP-32 to your computer using a USB-C cable (can be a USB-B cable, depends on the model)
+4) Go to *File > preferences* and paste "https://dl.espressif.com/dl/package_esp32_index.json" into the "additionnal boards" text input.
+5) Next, you'll need to install *DHT sensor library from Adafruit* in the library manager (3rd icon on the left sidebar).
+6) Go to *Tools > board > esp32* and select *ESP32 Dev Module*.
+7) Go to *Tools > board > port* and select the correct COM port.
+8) Falsh with the top left arrow button !
+9) Open the serial monitor, select 115200 baud, and wait for output.
