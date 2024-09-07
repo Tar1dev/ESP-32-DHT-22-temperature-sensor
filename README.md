@@ -8,7 +8,7 @@ A simple implementation of a DHT-22 sensor with an ESP-32
 - 1 breadboard
 
 <br>
-<img src="images/build.png" width="300" />
+<img src="images/build.png" width="500" />
 
 ### How to wire ?
 - To supply power to the DHT-22, you'll need to wire the ESP-32's **3v3** pin to the DHT-22's **VCC** pin.
